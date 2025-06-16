@@ -24,11 +24,10 @@ export default function Layout(){
     }
 
     return (
-        <Stack 
-            screenOptions={{ 
-                headerShown: false,
-                contentStyle: { backgroundColor: colors.terracota.base },
-            }}
-        />
+        <GestureHandlerRootView style={{flex: 1}}>
+        <BottomSheetModalProvider>
+        <NavigationBar />
+        </BottomSheetModalProvider>
+        </GestureHandlerRootView>
     )
 }

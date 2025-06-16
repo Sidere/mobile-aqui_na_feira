@@ -1,16 +1,15 @@
-import { View, Text } from "react-native"
+import Button from "@/components/button"
+import Logo from "@/components/logo"
+import { View } from "react-native"
+import { router } from "expo-router"
 
 export default function Index(){
     return (
         <View
-            style={{
-                flex:1 ,
-                justifyContent: "center",
-                alignItems: "center",
-
-            }}
+            style={{flex: 1, padding:40, gap:40 }}
         >
-            <Text> Aqui na Feira - App </Text>
+            <Logo/>
+            <Button title="Começar" onPress={() => router.navigate("/home")}/>
         </View>
     )
 } 
