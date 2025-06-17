@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow">
-  <img src="https://img.shields.io/badge/Expo-%5E48.0.0-blue">
+  <img src="https://img.shields.io/badge/Expo-%5E53.0.0-blue">
   <img src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
