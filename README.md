@@ -84,6 +84,4 @@ Este projeto faz parte de uma iniciativa para fomentar a cultura, economia criat
 
 ---
 
-<p align="center"> Feito com ❤️ por <strong>Sidere</strong> ✨ </p>
-
 
