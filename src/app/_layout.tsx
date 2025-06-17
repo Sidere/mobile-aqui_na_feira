@@ -1,5 +1,9 @@
 import { Stack } from "expo-router"
 import { colors } from "@/styles/theme"
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
+import NavigationBar from '../components/navigationBar';
+
 
 import {
     useFonts,
